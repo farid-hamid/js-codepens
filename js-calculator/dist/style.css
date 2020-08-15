@@ -1,0 +1,84 @@
+html, body{
+  background-color:beige;
+}
+
+.btn-primary{
+  cursor:pointer;
+  border-radius:30px;
+  width:50px;
+  height:50px; 
+  font-size:x-large;
+  background-color:darkgreen;
+  border-color:darkgreen;
+  font-weight:700;
+}
+
+#total{
+  width:70px;
+  border-radius: 20px;
+  background-color:lime;
+  border-color:lime;
+  
+}
+
+#deleteAll{
+  background-color:darkred;
+  border-color:darkred;
+  height:43px;
+  cursor:pointer;
+  width:43px;
+  padding-left:8.5px;
+  
+}
+
+#backOne{
+  height:55px;
+  cursor:pointer;
+  background-color:navy;
+  border-color:navy;
+  border-radius:30px;
+}
+
+#calculatorOutput{
+  height:75px;
+  width:350px;
+  background-color:black;
+  border-top-right-radius:15px;
+  border-top-left-radius:15px;
+  margin-right:auto;
+  margin-left:auto;
+  padding-top:20px;
+  padding-left:167px;
+  color:lime;
+  font-size:x-large;
+}
+
+#calculator{
+  height:370px;
+  width:350px;
+  background-color:black;
+  margin-right:auto;
+  margin-left:auto;
+  border-bottom-left-radius:35px;
+  border-bottom-right-radius:35px;
+}
+
+#plus{
+  background-color:purple;
+  border-color:purple;
+}
+
+#dec{
+  background-color:purple;
+  border-color:purple;
+}
+
+#multiply{
+  background-color:purple;
+  border-color:purple;
+}
+
+#minus{
+  background-color:purple;
+  border-color:purple;
+}
