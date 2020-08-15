@@ -1,0 +1,23 @@
+.form-control{
+  border-radius: 25px;
+  width:350px;
+  margin: 0 33.8%;
+ 
+  
+}
+
+#searchBtn{
+  border-radius:28px;
+  height:50px;
+  width:50px;
+  cursor:pointer;
+}
+
+#searchBtn:hover{
+  background-color:teal;
+}
+
+.fa-search{
+  color: whitesmoke;
+  padding-left: 10.5px;
+}

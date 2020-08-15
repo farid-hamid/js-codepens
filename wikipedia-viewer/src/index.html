@@ -1,0 +1,19 @@
+<div class= "container text-center"ng-app="myApp" ng-controller="myCtrl">
+  </br>
+
+<input ng-model="searchTerm" type="search" class="form-control" id="wikiSearch">
+
+
+  <button class="btn btn-default fa fa-search fa-2x" ng-click="search()" id="searchBtn"></button>
+  
+ 
+  <div class="results col-xs-12" ng-repeat="result in results">
+    
+    <h1><a href="{{result.link}}"> {{result.title}} </a></h1>
+    
+<p>{{result.extract}}</p> 
+  </div>
+  
+  
+</div>
+     
